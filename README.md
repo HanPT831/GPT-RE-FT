@@ -32,7 +32,7 @@ RE_improved_baseline
 ```
 
 ## Training The RE Representation Model (REbaseline)
-To train the representation models, we adopt an efficent implementation of entity-marker based method "[An Improved Baseline for Sentence-level Relation Extractions](https://aclanthology.org/2022.aacl-short.21/)". The commands and hyper-parameters for running experiments can be found in the ``scripts`` folder.
+To train the representation models, we adopt an efficient implementation of entity-marker based method "[An Improved Baseline for Sentence-level Relation Extractions](https://aclanthology.org/2022.aacl-short.21/)". The commands and hyper-parameters for running experiments can be found in the ``scripts`` folder.
 ```bash
 >> sh run_bert_ace.sh
 >> sh run_bert_scierc.sh
