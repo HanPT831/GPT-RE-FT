@@ -1,0 +1,21 @@
+python3 gpt3_relation.py \
+    --task semeval \
+    --model . \
+    --example_dataset ./dataset/semeval_gpt/train.json \
+    --test_dataset ./dataset/semeval_gpt/test.json \
+    --fixed_example 0\
+    --fixed_test 1\
+    --num_per_rel 0 \
+    --num_run 1 \
+    --seed 0 \
+    --random_label 0 \
+    --reasoning 0 \
+    --use_knn 0 \
+    --k 27 \
+    --var 0 \
+    --reverse 0 \
+    --verbalize 0 \
+    --entity_info 0 \
+    --model_name_or_path ../REbaseline/models/semeval \
+    --input_format entity_marker \
+    --use_ft
