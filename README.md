@@ -1,6 +1,6 @@
 # GPT-RE-FT
 
-Code for reproducing the GPT-RE with fine-tuned RE representations, EMNLP 2023 paper "[GPT-RE: In-context Learning for Relation Extraction using Large Language Models](http://simaclanthology.org/2023.emnlp-main.214/)". For better code readability, this repo only includes GPT-RE-FT, referring to [GPT-RE](https://github.com/YukinoWan/GPT-RE) for other methods.
+Code for reproducing the GPT-RE with fine-tuned RE representations, EMNLP 2023 paper "[GPT-RE: In-context Learning for Relation Extraction using Large Language Models](http://simaclanthology.org/2023.emnlp-main.214/)". For better code readability, this repository includes only the GPT-RE-FT implementation; please refer to [GPT-RE](https://github.com/YukinoWan/GPT-RE) for the remaining methods.
 ```
 GPT-RE-FT
  |-- GPT-RE (Retrieval-Based In-Context Learning)
@@ -17,7 +17,7 @@ GPT-RE-FT
 * openai
 
 ## Dataset
-Please refer [GPT-RE](https://github.com/YukinoWan/GPT-RE) or [PURE](https://github.com/princeton-nlp/PURE) to prepare the datasets. The expected structure of files is:
+Please refer to [GPT-RE](https://github.com/YukinoWan/GPT-RE) or [PURE](https://github.com/princeton-nlp/PURE) for preparing the datasets. The expected structure of files is:
 ```
 RE_improved_baseline
  |-- data
