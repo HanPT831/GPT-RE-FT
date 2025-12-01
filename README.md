@@ -55,8 +55,6 @@ An example for knn-retrieved demonstrations could be found in results/knn-semeva
 
 ## Citation
 
-If you find this work helpful, please cite our paper:
-
 ```bibtex
 @inproceedings{wan2023gpt,
   title={GPT-RE: In-context Learning for Relation Extraction using Large Language Models},
@@ -64,6 +62,7 @@ If you find this work helpful, please cite our paper:
   booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
   year={2023}
 }
+
 @inproceedings{han-etal-2025-amr,
     title = "{AMR}-{RE}: {A}bstract {M}eaning {R}epresentations for Retrieval-Based In-Context Learning in Relation Extraction",
     author = "Han, Peitao  and
